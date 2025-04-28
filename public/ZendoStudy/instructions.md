@@ -1,9 +1,12 @@
 ## Task Instructions
 
 In this task, you will see a series of visual scenes composed of different arrangements of 2D triangular objects (cones).  
+
 Each scene will either **follow** or **not follow** a hidden rule that separates one group of scenes from another.
 
 Your goal is to **figure out what this hidden rule is** by observing patterns and using your reasoning skills.
+
+There will be five separate sets of these scenes, each with its own hidden rule.
 
 ---
 
