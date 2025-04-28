@@ -22,6 +22,18 @@ export function AudioTest({ parameters, setAnswer }: StimulusParams<any>) {
   const identifier = `${currentComponent}_${currentStep}`;
 
   useEffect(() => {
+    setAnswer({
+      status: false,
+      provenanceGraph: undefined,
+      answers: {},
+    });
+    dispatch(updateResponseBlockValidation({
+      location: 'belowStimulus',
+      identifier,
+      status: false,
+      provenanceGraph: undefined,
+      values: {},
+    }));
     let animationId: number;
     let soundDetected = false;
 
@@ -54,7 +66,7 @@ export function AudioTest({ parameters, setAnswer }: StimulusParams<any>) {
           }
 
           // tuning: fire on any non-zero deviation
-          if (!soundDetected && maxDelta > 15) {
+          if (!soundDetected && maxDelta > 10) {
             soundDetected = true;
 
             // 1) update your hidden-radio (sidebar)
