@@ -1,11 +1,12 @@
 {
     "$schema": "https://raw.githubusercontent.com/revisit-studies/study/v1.0.0/src/parser/GlobalConfigSchema.json",
     "configsList": [
-        "stage-2"
+        "ZendoStudy"
     ],
-    "configs": {
-        "stage-2": {
-            "path": "stage-2/config-stage-2.json"
+    "configs": { 
+        "ZendoStudy":{
+            "path": "ZendoStudy/config-zendo.json"
         }
     }
 }
+ 
