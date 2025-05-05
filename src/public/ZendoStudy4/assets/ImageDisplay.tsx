@@ -30,10 +30,10 @@ function ImageDisplay({ parameters, setAnswer }: ImageDisplayParams) {
   // On mount: choose example image if provided, else randomize from imgOptions
   useEffect(() => {
     if (exampleImgOptions && exampleImgOptions.length === 1) {
-      setSelectedImage(exampleImgOptions[0]);
+      setSelectedImage(import.meta.env.BASE_URL + exampleImgOptions[0]);
     } else if (imgOptions.length > 0) {
       const idx = Math.floor(Math.random() * imgOptions.length);
-      setSelectedImage(imgOptions[idx]);
+      setSelectedImage(import.meta.env.BASE_URL + imgOptions[idx]);
     }
     // disable Next by sending status: false
     setAnswer({ status: false, provenanceGraph: undefined, answers: {} });

@@ -30,10 +30,10 @@ function ImageDisplay({ parameters, setAnswer }: ImageDisplayParams) {
 
   useEffect(() => {
     if (exampleImgOptions && exampleImgOptions.length === 1) {
-      setSelectedImage(exampleImgOptions[0]);
+      setSelectedImage(import.meta.env.BASE_URL + exampleImgOptions[0]);
     } else if (imgOptions.length > 0) {
       const idx = Math.floor(Math.random() * imgOptions.length);
-      setSelectedImage(imgOptions[idx]);
+      setSelectedImage(import.meta.env.BASE_URL + imgOptions[idx]);
     }
     setAnswer({ status: false, provenanceGraph: undefined, answers: {} });
     // eslint-disable-next-line react-hooks/exhaustive-deps
