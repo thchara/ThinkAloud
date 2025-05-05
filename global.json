@@ -1,16 +1,16 @@
 {
     "$schema": "https://raw.githubusercontent.com/revisit-studies/study/v1.0.0/src/parser/GlobalConfigSchema.json",
     "configsList": [
+        "ZendoStudy4",
         "ZendoStudy5",
-        "ZendoStudy8",
-        "ZendoStudy4"
+        "ZendoStudy8"
     ],
     "configs": { 
-        "ZendoStudy5":{
-            "path": "ZendoStudy5/config-zendo5.json"
-        },
         "ZendoStudy4":{
             "path": "ZendoStudy4/config-zendo4.json"
+        },
+        "ZendoStudy5":{
+            "path": "ZendoStudy5/config-zendo5.json"
         },
         "ZendoStudy8":{
             "path": "ZendoStudy8/config-zendo8.json"
