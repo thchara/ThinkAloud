@@ -37,6 +37,18 @@ After the timer ends, you will be prompted to type in your guess about the rule.
 
 ---
 
+### What Does "Thinking Aloud" Mean?
+
+As you look at each scene, speak your thoughts out loud — even if you're unsure. You might say things like:
+
+- “I notice this one has two cones…”
+- “Maybe it’s because they are all blue?”
+- “Hmm, that one’s different… could it be the tilt?”
+
+Just try to **talk through your reasoning process**, like you're explaining it to someone else. There are no wrong thoughts!
+
+---
+
 ### Example of a Guess
 
 When asked to guess, you'll see a box like this:
