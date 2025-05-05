@@ -29,4 +29,3 @@ dist-ssr
 /playwright/.cache/
 
 docs/
-.env
