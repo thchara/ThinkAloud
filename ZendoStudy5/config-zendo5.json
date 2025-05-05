@@ -99,10 +99,10 @@
       "recordAudio": true,
       "parameters": {
         "imgOptions": [
-          "/ZendoStudy5/images/Rule1/p10.png",
-          "/ZendoStudy5/images/Rule1/p15.png",
-          "/ZendoStudy5/images/Rule1/p57.png",
-          "/ZendoStudy5/images/Rule1/p63.png"
+          "ZendoStudy5/images/Rule1/p10.png",
+          "ZendoStudy5/images/Rule1/p15.png",
+          "ZendoStudy5/images/Rule1/p57.png",
+          "ZendoStudy5/images/Rule1/p63.png"
         ],
         "instructions": "Think aloud as you try to infer the hidden rule.",
         "timerSeconds": 240
@@ -115,10 +115,10 @@
       "recordAudio": true,
       "parameters": {
         "imgOptions": [
-          "/ZendoStudy5/images/Rule2/p14.png",
-          "/ZendoStudy5/images/Rule2/p24.png",
-          "/ZendoStudy5/images/Rule2/p42.png",
-          "/ZendoStudy5/images/Rule2/p55.png"
+          "ZendoStudy5/images/Rule2/p14.png",
+          "ZendoStudy5/images/Rule2/p24.png",
+          "ZendoStudy5/images/Rule2/p42.png",
+          "ZendoStudy5/images/Rule2/p55.png"
         ],
         "instructions": "Think aloud as you try to infer the hidden rule.",
         "timerSeconds": 240
@@ -130,10 +130,10 @@
       "recordAudio": true,
       "parameters": {
         "imgOptions": [
-          "/ZendoStudy5/images/Rule3/p26.png",
-          "/ZendoStudy5/images/Rule3/p57.png",
-          "/ZendoStudy5/images/Rule3/p59.png",
-          "/ZendoStudy5/images/Rule3/p79.png"
+          "ZendoStudy5/images/Rule3/p26.png",
+          "ZendoStudy5/images/Rule3/p57.png",
+          "ZendoStudy5/images/Rule3/p59.png",
+          "ZendoStudy5/images/Rule3/p79.png"
         ],
         "instructions": "Think aloud as you try to infer the hidden rule.",
         "timerSeconds": 240
@@ -145,10 +145,10 @@
       "recordAudio": true,
       "parameters": {
         "imgOptions": [
-          "/ZendoStudy5/images/Rule4/p15.png",
-          "/ZendoStudy5/images/Rule4/p20.png",
-          "/ZendoStudy5/images/Rule4/p36.png",
-          "/ZendoStudy5/images/Rule4/p59.png"
+          "ZendoStudy5/images/Rule4/p15.png",
+          "ZendoStudy5/images/Rule4/p20.png",
+          "ZendoStudy5/images/Rule4/p36.png",
+          "ZendoStudy5/images/Rule4/p59.png"
         ],
         "instructions": "Think aloud as you try to infer the hidden rule.",
         "timerSeconds": 240
@@ -160,10 +160,10 @@
       "recordAudio": true,
       "parameters": {
         "imgOptions": [
-          "/ZendoStudy5/images/Rule5/p1.png",
-          "/ZendoStudy5/images/Rule5/p8.png",
-          "/ZendoStudy5/images/Rule5/p26.png",
-          "/ZendoStudy5/images/Rule5/p42.png"
+          "ZendoStudy5/images/Rule5/p1.png",
+          "ZendoStudy5/images/Rule5/p8.png",
+          "ZendoStudy5/images/Rule5/p26.png",
+          "ZendoStudy5/images/Rule5/p42.png"
         ],
         "instructions": "Think aloud as you try to infer the hidden rule.",
         "timerSeconds": 240
