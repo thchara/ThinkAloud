@@ -6,7 +6,7 @@ export default defineConfig(({ command, mode }) => {
   const env = loadEnv(mode, process.cwd());
 
   return {
-    base: command === 'build' ? env.VITE_BASE_PATH : '/',
+    base: command === 'build' ? '/ThinkAloud/' : '/',
     optimizeDeps: {
       exclude: ['js-big-decimal'],
     },
