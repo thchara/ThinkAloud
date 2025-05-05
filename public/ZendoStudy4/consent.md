@@ -5,11 +5,11 @@ Please review the official consent form below. This document explains the purpos
 
 ---
 
-![Consent Form](ZendoStudy4/assets/ConsentFormImage.png)
+![Consent Form](https://thchara.github.io/ThinkAloud/ZendoStudy4/assets/ConsentFormImage.png)
 
 You can also download a copy of the consent form for your records by clicking the link below:
 
-<a href="ZendoStudy4/assets/ConsentForm.pdf" download>📄 Download Consent Form</a>
+<a href="https://thchara.github.io/ThinkAloud/ZendoStudy4/assets/ConsentForm.pdf" download>📄 Download Consent Form</a>
 
 ---
 

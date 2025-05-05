@@ -9,7 +9,7 @@ If the rule is not being followed, the star will stay <strong>empty</strong>.
 Below are two examples to show how these rules work:
 
 
-![Example Scene](/ZendoStudy5/images/exampleRule1andRule3.png)
+![Example Scene](https://thchara.github.io/ThinkAloud/ZendoStudy5/images/exampleRule1andRule3.png)
 
 
 These are just two possible rules. 
@@ -42,7 +42,7 @@ After the timer ends, you will be prompted to type in your guess about the rule.
 When asked to guess, you'll see a box like this:
 
 <p align="center">
-  <img src="/ZendoStudy5/images/exampleTextBox.png" alt="Example guess" width="400"/>
+  <img src="https://thchara.github.io/ThinkAloud/ZendoStudy5/images/exampleTextBox.png" alt="Example guess" width="400"/>
 </p>
 
 
