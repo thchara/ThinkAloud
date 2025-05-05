@@ -23,6 +23,18 @@ There are many different things that might make the star light up, such as:
 
 ---
 
+### What Does "Thinking Aloud" Mean?
+
+As you look at each scene, speak your thoughts out loud — even if you're unsure. You might say things like:
+
+- “I notice this one has two cones…”
+- “Maybe it’s because they are all blue?”
+- “Hmm, that one’s different… could it be the tilt?”
+
+Just try to **talk through your reasoning process**, like you're explaining it to someone else. There are no wrong thoughts!
+
+---
+
 ### Reminder About Timing
 
 For each task, you will have **4 minutes** to observe the scenes and think aloud as you try to figure out the hidden rule.
