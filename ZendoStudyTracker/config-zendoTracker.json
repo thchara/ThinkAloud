@@ -1,0 +1,245 @@
+{
+  "$schema": "https://raw.githubusercontent.com/revisit-studies/study/v2.1.1/src/parser/StudyConfigSchema.json",
+
+  "studyMetadata": {
+    "version": "1.0",
+    "title": "Think-Aloud Zendo Study - 5 blocks with panel to track ideas",
+    "authors": ["Your Name"],
+    "date": "2025-04-24",
+    "description": "A study exploring human reasoning through a visual rule induction task.",
+    "organizations": ["University of Edinburgh"]
+  },
+
+  "uiConfig": {
+    "contactEmail": "t.h.charara@sms.ed.ac.uk",
+    "logoPath": "revisitAssets/revisitLogoSquare.svg",
+    "urlParticipantIdParam": "PROLIFIC_PID",
+    "studyEndMsg": "**Thank you for completing the study. You may click this link and return to Prolific**: [yourProlificLink](https://app.prolific.com/submissions/complete?cc=CDMMTO9L).",
+    "withProgressBar": true,
+    "sidebar": false
+  },
+
+  "recordStudyAudio": true,
+
+  "baseComponents": {
+    "imageDisplay": {
+      "description": "Displays an image with instructions",
+      "type": "react-component",
+      "path": "ZendoStudy/assets/ImageDisplayIdeaTracker.tsx",
+      "response": []
+    }
+  },
+  
+  "components": {
+    "introduction": {
+      "type": "markdown",
+      "path": "ZendoStudyTracker/introduction.md",
+      "response": [
+        {
+          "id": "prolificID",
+          "type": "shortText",
+          "prompt": "Please enter your Prolific ID:",
+          "required": true,
+          "location": "belowStimulus",
+          "paramCapture": "PROLIFIC_PID"
+        }
+      ]
+    },
+
+   "consent": {
+      "type": "markdown",
+      "path": "ZendoStudyTracker/consent.md",
+      "nextButtonText": "Agree",
+      "response": [
+        {
+          "id": "consentGiven",
+          "prompt": "Do you consent to participate in this study?",
+          "required": true,
+          "requiredValue": "yes",
+          "location": "belowStimulus",
+          "type": "radio",
+          "options": [
+            { "label": "I Do Not Agree", "value": "no" },
+            { "label": "I Agree", "value": "yes" }
+          ]
+        }
+      ]
+    },
+    "instructions1": {
+      "type": "markdown",
+      "path": "ZendoStudyTracker/instructions1.md",
+      "recordAudio": false,
+      "response": []
+    },
+    "instructions2": {
+      "type": "markdown",
+      "path": "ZendoStudyTracker/instructions2.md",
+      "recordAudio": false,
+      "response": []
+    },
+    "instructions3": {
+      "type": "markdown",
+      "path": "ZendoStudyTracker/instructions3.md",
+      "recordAudio": false,
+      "response": []
+    },
+    "exampleScene": {
+      "type": "markdown",
+      "recordAudio": false,
+      "path": "ZendoStudyTracker/example.md",
+      "nextButtonText": "Next",
+      "response": []
+    },
+    "IdeaTrackerIntro": {
+      "type": "markdown",
+      "path": "ZendoStudyTracker/IdeaTrackerIntro.md",
+      "recordAudio": false,
+      "response": []
+    },
+    "audioTest": {
+      "description": "Audio Test",
+      "type": "react-component",
+      "path": "viz-guardrails/AudioTest.tsx",
+      "recordAudio": true,
+      "nextButtonText": "Start Task",
+      "response": [{
+        "id": "audioTest",
+        "type": "radio",
+        "required": true,
+        "hidden": true,
+        "location": "sidebar",
+        "prompt": "Audio working",
+        "options": [{"label": "Yes", "value": "yes"}]
+      }]
+    },
+    "scene1": {
+      "baseComponent": "imageDisplay",
+      "recordAudio": true,
+      "parameters": {
+        "imgOptions": [
+          "ZendoStudyTracker/images/SimpleFeat/Red.png"
+        ],
+        "instructions": "Think aloud as you try to infer the hidden rule. You will be able to write your guess once the timer finishes.",
+        "timerSeconds": 120,
+        "enableIdeaTracker": true
+      },
+      "nextButtonText": "Next"
+    },
+
+    "scene2": {
+      "baseComponent": "imageDisplay",
+      "recordAudio": true,
+      "parameters": {
+        "imgOptions": [
+          "ZendoStudyTracker/images/Conjunction/smallBlue.png"
+        ],
+        "instructions": "Think aloud as you try to infer the hidden rule. You will be able to write your guess once the timer finishes.",
+        "timerSeconds": 120,
+        "enableIdeaTracker": true
+      },
+      "nextButtonText": "Next"
+    },
+    "scene3": {
+      "baseComponent": "imageDisplay",
+      "recordAudio": true,
+      "parameters": {
+        "imgOptions": [
+          "ZendoStudyTracker/images/MultipleRule/2BlueTilted.png"
+        ],
+        "instructions": "Think aloud as you try to infer the hidden rule. You will be able to write your guess once the timer finishes.",
+        "timerSeconds": 120,
+        "enableIdeaTracker": true
+      },
+      "nextButtonText": "Next"
+    },
+    "scene4": {
+      "baseComponent": "imageDisplay",
+      "recordAudio": true,
+      "parameters": {
+        "imgOptions": [
+          "ZendoStudyTracker/images/Spatial/StackedColor.png"
+        ],
+        "instructions": "Think aloud as you try to infer the hidden rule. You will be able to write your guess once the timer finishes.",
+        "timerSeconds": 120,
+        "enableIdeaTracker": true
+      },
+      "nextButtonText": "Next"
+    },
+    "scene5": {
+      "baseComponent": "imageDisplay",
+      "recordAudio": true,
+      "parameters": {
+        "imgOptions": [
+          "ZendoStudyTracker/images/RelativeQuant/moreRed.png"
+        ],
+        "instructions": "Think aloud as you try to infer the hidden rule. You will be able to write your guess once the timer finishes.",
+        "timerSeconds": 120,
+        "enableIdeaTracker": true
+      },
+      "nextButtonText": "Next"
+    },
+    "post-study-info": {
+      "type": "markdown",
+      "path": "ZendoStudyTracker/post-study-info.md",
+      "recordAudio": false,
+      "response": []
+    },
+    "post-study-survey": {
+      "type": "questionnaire",
+      "recordAudio": false,
+      "response": [
+        {
+          "id": "comfort",
+          "prompt": "How comfortable were you thinking aloud?",
+          "required": true,
+          "type": "likert",
+          "numItems": 5,
+          "rightLabel": "Very comfortable",
+          "leftLabel": "Not at all"
+        },
+        {
+          "id": "issues",
+          "prompt": "Did you experience any technical issues?",
+          "required": false,
+          "type": "longText",
+          "placeholder": "Describe any issues here."
+        }
+      ]
+    },
+    "EndofStudy": {
+      "type": "markdown",
+      "path": "ZendoStudyTracker/end-of-study.md",
+      "recordAudio": false,
+      "response": []
+    },
+    "showParticipantId": {
+      "type": "react-component",
+      "path": "ZendoStudyTracker/assets/ParticipantIdDisplay.tsx",
+      "recordAudio": false,
+      "response": []
+    }
+  },
+
+  "sequence": {
+    "order": "fixed",
+    "components": [
+      "introduction",
+      "consent",
+      "instructions1",
+      "instructions2",
+      "instructions3",
+      "exampleScene",
+      "IdeaTrackerIntro",
+      "audioTest",
+      "scene1",
+      "scene2",  
+      "scene3",   
+      "scene4",   
+      "scene5",
+      "post-study-info",
+      "post-study-survey",
+      "EndofStudy",
+      "showParticipantId"
+    ]
+  }
+}

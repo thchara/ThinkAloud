@@ -1,73 +1,88 @@
-## Example: How Do the Stars Light Up?
+## Example: What Makes the Star Appear?
 
-In this task, each group of cones follows a special rule.  
-<p style="margin-bottom: 10px;"> 
-If the rule is being followed, the star in the corner will light up <strong>yellow</strong>.  
-If the rule is not being followed, the star will stay <strong>empty</strong>.
-</p> 
+Each puzzle shows six visual scenes made of cone-shaped objects.
 
-Below are two examples to show how these rules work:
+Some panels will display a **yellow star** in the top corner. This means the arrangement in that panel **follows the hidden rule**.
 
-
-![Example Scene](https://thchara.github.io/ThinkAloud/ZendoStudy5/images/exampleRule1andRule3.png)
-
-
-These are just two possible rules. 
-There are many different things that might make the star light up, such as:
-
-- The **number** of cones
-- The **color** of cones
-- The **size** of cones
-- The **direction** they are facing
-- Or other features!
+If the star is missing, that panel **does not follow the rule**.
 
 ---
 
-### What Does "Thinking Aloud" Mean?
+Below is an example showing some panels that light up the star and some that don’t.
 
-As you look at each scene, speak your thoughts out loud — even if you're unsure. You might say things like:
-
-- “I notice this one has two cones…”
-- “Maybe it’s because they are all blue?”
-- “Hmm, that one’s different… could it be the tilt?”
-
-Just try to **talk through your reasoning process**, like you're explaining it to someone else. There are no wrong thoughts!
-
----
-
-
-### Reminder About Timing
-
-For each task, you will have **4 minutes** to observe the scenes and think aloud as you try to figure out the hidden rule.
-
-- The timer is there to give you enough time to explore your thoughts.
-- Use the full time to discuss what patterns you notice and what you believe might explain when the star lights up.
-- You will **not be able to enter your guess** until the timer has finished, so focus on reasoning out loud throughout the task.
-
-<p style="margin-bottom: 10px;">
-After the timer ends, you will be prompted to type in your guess about the rule.
+<p align="center">
+  <img src="https://thchara.github.io/ThinkAloud/ZendoStudy5/images/exampleRule1andRule3.png" alt="Example Rule Image" width="900"/>
 </p>
 
+As you look at these panels, your task is to **observe what they have in common** and what might be different in the ones without a star.
+
+You won’t be told the rule. You will have to try and figure it out by comparing the panels and reasoning aloud.
+
+---
+## Thinking Aloud Step by Step
+
+Remember, when thinking aloud, you do not need to be right. Just speak clearly about what you notice, what you’re testing, and how your thinking changes as you go. The goal is to show your reasoning process, not just your final answer.
+
+Let’s walk through how a participant might think aloud during a task like this:
+
+> “Looking at **Panel B**, there's one green cone and it’s tilted, and there’s a star.”
+>
+> “**Panel D** has one red cone, also tilted, and also has a star.”
+>
+> “So maybe it’s about **tilt**? Both are not upright…”
+
+This participant starts by describing what they see and forming an initial hypothesis based on shared features.
+
+> “But then **Panel A** has two cones that are tilted, but no star. Hmm.”
+>
+> “Maybe it could be something about **color combinations** instead?”
+>
+> “**Panel B** is green, **Panel D** is red, and both have stars.”
+>
+> “**Panel A** has both red and green, but no star.”
+>
+> “Could it be: **you can have red or green, but not both together**?”
+
+Now they’re considering an alternative explanation, testing and revising their thoughts based on what they observe.
+
+> “That might explain **A**… but I’m not totally convinced.”
+>
+> “Maybe it could be about the **number of cones that are tilted**. Maybe only one should be tilted, not two like in **Panel A**. That could be a rule.”
+>
+> “Or maybe **all** of the cones in a scene have to be tilted, and having one upright cone in **Panel A** breaks the rule.”
+>
+> “So maybe it’s not about color. Maybe the rule is: **none of the cones can be upright**?”
+>
+> “That would fit. **Panels B and D** are fully tilted and have stars. **A and C** both have at least one upright cone, and no star.”
+>
+> “Yeah, that seems more consistent.”
+>
+> “Still, I’ll note the idea that maybe only one cone should be tilted, or the red-and-green color combination breaks the rule as lower-confidence guesses, just in case.”
+
+In this example, the participant worked through the task by forming an initial idea, testing it against different panels, and considering other possibilities when contradictions appeared.
+
+This is the kind of thoughtful, verbal reasoning we’re looking for.
+Even guesses that turn out to be wrong are valuable if they reflect your thought process.
+Just keep observing, testing ideas, and explaining your thinking out loud.
+
 ---
 
-### Example of a Guess
+### Entering Your Guesses
 
-When asked to guess, you'll see a box like this:
+Once the 2-minute minimum has passed, a textbox will appear where you can type in your guess or guesses about the hidden rule.
+
+If you came up with more than one possible rule, feel free to list them all in order of how likely you think they are.
+
+Example: when asked to guess, you'll see a box like this in which you can write your guess or guesses from most to least likely.
 
 <p align="center">
   <img src="https://thchara.github.io/ThinkAloud/ZendoStudy5/images/exampleTextBox.png" alt="Example guess" width="400"/>
 </p>
 
-
-<p style="margin-bottom: 10px;"> 
-For example, if it looks like the star lights up if all the cones are red, you would write something like:  
-"at least one cone is red"
-</p>
+---
 
 <p style="color:red; margin-bottom:5px;">
-  <strong>Important Reminder:</strong> Your responses and think-aloud recording will be reviewed.  
-  If your recording contains unrelated speech, silence, or doesn’t reflect an attempt to reason about the task,  
-  your submission <strong>may be rejected</strong>.
+  <strong>Important Reminder:</strong> Your responses and think-aloud recording will be reviewed. Occasional pauses are fine, as we understand there are moments when you may feel stuck or unsure what to say. However, if your recording contains prolonged periods of silence or shows no meaningful attempt to reason about the task, your submission <strong>may be rejected</strong>.
 </p>
 
 <p style="margin-bottom: 10px;"> 

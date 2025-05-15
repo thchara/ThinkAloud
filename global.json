@@ -1,19 +1,19 @@
 {
     "$schema": "https://raw.githubusercontent.com/revisit-studies/study/v1.0.0/src/parser/GlobalConfigSchema.json",
     "configsList": [
-        "ZendoStudy4",
-        "ZendoStudy5",
-        "ZendoStudy8"
+        "ZendoStudy",
+        "ZendoStudyTracker",
+        "ZendoStudyEarlyGuess"
     ],
     "configs": { 
-        "ZendoStudy4":{
-            "path": "ZendoStudy4/config-zendo4.json"
+        "ZendoStudy":{
+            "path": "ZendoStudy/config-zendo.json"
         },
-        "ZendoStudy5":{
-            "path": "ZendoStudy5/config-zendo5.json"
+        "ZendoStudyEarlyGuess":{
+            "path": "ZendoStudyEarlyGuess/config-zendoEarlyGuess.json"
         },
-        "ZendoStudy8":{
-            "path": "ZendoStudy8/config-zendo8.json"
+        "ZendoStudyTracker":{
+            "path": "ZendoStudyTracker/config-zendoTracker.json"
         }
     }
 }
