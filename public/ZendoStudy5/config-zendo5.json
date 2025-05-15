@@ -25,7 +25,7 @@
     "imageDisplay": {
       "description": "Displays an image with instructions",
       "type": "react-component",
-      "path": "ZendoStudy5/assets/ImageDisplay-3min.tsx",
+      "path": "ZendoStudy5/assets/ImageDisplay1.tsx",
       "response": []
     }
   },
@@ -65,9 +65,21 @@
         }
       ]
     },
-    "instructions": {
+    "instructions1": {
       "type": "markdown",
-      "path": "ZendoStudy5/instructions.md",
+      "path": "ZendoStudy5/instructions1.md",
+      "recordAudio": false,
+      "response": []
+    },
+    "instructions2": {
+      "type": "markdown",
+      "path": "ZendoStudy5/instructions2.md",
+      "recordAudio": false,
+      "response": []
+    },
+    "instructions3": {
+      "type": "markdown",
+      "path": "ZendoStudy5/instructions3.md",
       "recordAudio": false,
       "response": []
     },
@@ -104,8 +116,9 @@
           "ZendoStudy5/images/Rule1/p57.png",
           "ZendoStudy5/images/Rule1/p63.png"
         ],
-        "instructions": "Think aloud as you try to infer the hidden rule.",
-        "timerSeconds": 240
+        "instructions": "Think aloud as you try to infer the hidden rule. You will be able to write your guess once the timer finishes.",
+        "timerSeconds": 120,
+        "ruleKey": "rule1"
       },
       "nextButtonText": "Next"
     },
@@ -120,8 +133,9 @@
           "ZendoStudy5/images/Rule2/p42.png",
           "ZendoStudy5/images/Rule2/p55.png"
         ],
-        "instructions": "Think aloud as you try to infer the hidden rule.",
-        "timerSeconds": 240
+        "instructions": "Think aloud as you try to infer the hidden rule. You will be able to write your guess once the timer finishes.",
+        "timerSeconds": 120,
+        "ruleKey": "rule2"
       },
       "nextButtonText": "Next"
     },
@@ -135,8 +149,9 @@
           "ZendoStudy5/images/Rule3/p59.png",
           "ZendoStudy5/images/Rule3/p79.png"
         ],
-        "instructions": "Think aloud as you try to infer the hidden rule.",
-        "timerSeconds": 240
+        "instructions": "Think aloud as you try to infer the hidden rule. You will be able to write your guess once the timer finishes.",
+        "timerSeconds": 120,
+        "ruleKey": "rule3"
       },
       "nextButtonText": "Next"
     },
@@ -150,8 +165,9 @@
           "ZendoStudy5/images/Rule4/p36.png",
           "ZendoStudy5/images/Rule4/p59.png"
         ],
-        "instructions": "Think aloud as you try to infer the hidden rule.",
-        "timerSeconds": 240
+        "instructions": "Think aloud as you try to infer the hidden rule. You will be able to write your guess once the timer finishes.",
+        "timerSeconds": 120,
+        "ruleKey": "rule4"
       },
       "nextButtonText": "Next"
     },
@@ -165,8 +181,9 @@
           "ZendoStudy5/images/Rule5/p26.png",
           "ZendoStudy5/images/Rule5/p42.png"
         ],
-        "instructions": "Think aloud as you try to infer the hidden rule.",
-        "timerSeconds": 240
+        "instructions": "Think aloud as you try to infer the hidden rule. You will be able to write your guess once the timer finishes.",
+        "timerSeconds": 120,
+        "ruleKey": "rule5"
       },
       "nextButtonText": "Next"
     },
@@ -217,7 +234,9 @@
     "components": [
       "introduction",
       "consent",
-      "instructions",
+      "instructions1",
+      "instructions2",
+      "instructions3",
       "exampleScene",
       "audioTest",
       "scene1",
