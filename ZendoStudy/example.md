@@ -11,7 +11,7 @@ If the star is missing, that panel **does not follow the rule**.
 Below is an example showing some panels that light up the star and some that don’t.
 
 <p align="center">
-  <img src="https://thchara.github.io/ThinkAloud/ZendoStudy5/images/exampleRule1andRule3.png" alt="Example Rule Image" width="900"/>
+  <img src="https://thchara.github.io/ThinkAloud/ZendoStudy/images/exampleRule1andRule3.png" alt="Example Rule Image" width="900"/>
 </p>
 
 As you look at these panels, your task is to **observe what they have in common** and what might be different in the ones without a star.
@@ -69,8 +69,6 @@ Just keep observing, testing ideas, and explaining your thinking out loud.
 
 ### Entering Your Guesses
 
-At the 
-
 Once the 2-minute minimum has passed, a textbox will appear where you can type in your guesses about the hidden rule.
 
 If you came up with more than one possible rule, feel free to list them all, in order of how likely you think they are.
@@ -78,7 +76,7 @@ If you came up with more than one possible rule, feel free to list them all, in 
 Example: when asked to guess, you'll see a box like this in which you can write your guess or guesses from most to least likely.
 
 <p align="center">
-  <img src="https://thchara.github.io/ThinkAloud/ZendoStudy6/images/exampleTextBox.png" alt="Example guess" width="400"/>
+  <img src="https://thchara.github.io/ThinkAloud/ZendoStudy/images/exampleTextBox.png" alt="Example guess" width="400"/>
 </p>
 
 ---

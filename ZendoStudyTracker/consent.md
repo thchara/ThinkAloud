@@ -5,11 +5,11 @@ Please review the official consent form below. This document explains the purpos
 
 ---
 
-![Consent Form](https://thchara.github.io/ThinkAloud/ZendoStudyTracker/assets/ConsentFormImage.png)
+![Consent Form](https://thchara.github.io/ThinkAloud/ZendoStudyEarlyGuess/assets/ConsentFormImage.png)
 
 You can also download a copy of the consent form for your records by clicking the link below:
 
-<a href="https://thchara.github.io/ThinkAloud/ZendoStudyTracker/assets/ConsentForm.pdf" download>📄 Download Consent Form</a>
+<a href="https://thchara.github.io/ThinkAloud/ZendoStudyEarlyGuess/assets/ConsentForm.pdf" download>📄 Download Consent Form</a>
 ---
 
 By proceeding, you confirm that you have read and understood the information provided, and that you voluntarily agree to participate.
