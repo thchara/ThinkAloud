@@ -2,7 +2,7 @@
 
 Each puzzle shows six visual scenes made of cone-shaped objects.
 
-Some panels will display a **yellow star** in the top corner. This means the arrangement in that panel **follows the hidden rule**.
+If a panel displays a **yellow star** in the top corner, that means the arrangement in that panel **follows the hidden rule**.
 
 If the star is missing, that panel **does not follow the rule**.
 
@@ -68,10 +68,6 @@ Just keep observing, testing ideas, and explaining your thinking out loud.
 ---
 
 ### Entering Your Guesses
-
-Once the 2-minute minimum has passed, a textbox will appear where you can type in your guesses about the hidden rule.
-
-If you came up with more than one possible rule, feel free to list them all, in order of how likely you think they are.
 
 Example: when asked to guess, you'll see a box like this in which you can write your guess or guesses from most to least likely.
 

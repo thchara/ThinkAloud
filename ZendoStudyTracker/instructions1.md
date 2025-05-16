@@ -10,15 +10,15 @@ Your goal is to figure out **what the hidden rule is** by observing patterns and
 
 ---
 
-### What to Expect
+### How It Works
 
 You will complete **five puzzles in total**, each with a different hidden rule.
 
 For each puzzle:
 
-- You will see a new set of six scenes (Panels A–F).
-- You will be asked to think aloud for at least 2 minutes before you can enter any guesses 
-- After the timer, you’ll be asked to type in your **best guess or guesses** about the rule.
+- View the six panels (A–F).
+- Think aloud for **2 minutes** as you reason through the puzzle.
+- When the timer ends, type in your **best guess or guesses** about the rule.
 
 ---
 
