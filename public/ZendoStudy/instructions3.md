@@ -1,7 +1,6 @@
 ## Use the Time to Think Freely
 
-For each puzzle,you will view five panels and be asked to think aloud for **2 minutes** before you can submit your final guesses.
-This will give you time to fully explore your ideas.
+For each puzzle, use the 2 minutes to fully explore your ideas.
 
 Even if you come up with an idea early on, we encourage you to **keep reasoning throughout the full time**. You may find other possible rules as you keep reasoning!
 
@@ -21,19 +20,11 @@ Think of it like brainstorming: don’t stop at your first answer, try to genera
 
 #### Final Guess Submission (After the 2-Minute Timer Ends)
 
-Once the 2-minute think-aloud period ends:
+You can enter your final guess or guesses after the 2 minutes are over.
 
-- A new textbox will appear where you can enter your **final rule guess or guesses**.
 - You can list as many guesses as you want, especially if you are unsure.
 - If you submit more than one guess, write them in order from **most to least confident**.
 - These guesses do not have to be correct, they should reflect your best reasoning based on the puzzle.
-
-Example:
-- “All cones are upright.”
-- “There’s at least one red cone.”
-- “One cone of each color.”
-
-You may continue reasoning aloud even after the timer ends, if you want more time to reflect before submitting your answer.
 
 ---
 
