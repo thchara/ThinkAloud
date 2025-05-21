@@ -2,15 +2,11 @@
     "$schema": "https://raw.githubusercontent.com/revisit-studies/study/v1.0.0/src/parser/GlobalConfigSchema.json",
     "configsList": [
         "ZendoStudy",
-        "ZendoStudyTracker",
-        "ZendoStudyEarlyGuess"
+        "ZendoStudyTracker"
     ],
     "configs": { 
         "ZendoStudy":{
             "path": "ZendoStudy/config-zendo.json"
-        },
-        "ZendoStudyEarlyGuess":{
-            "path": "ZendoStudyEarlyGuess/config-zendoEarlyGuess.json"
         },
         "ZendoStudyTracker":{
             "path": "ZendoStudyTracker/config-zendoTracker.json"
