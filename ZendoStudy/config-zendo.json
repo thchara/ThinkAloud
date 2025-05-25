@@ -38,7 +38,7 @@
         {
           "id": "prolificID",
           "type": "shortText",
-          "prompt": "Please enter your Prolific ID:",
+          "prompt": "Your Prolific ID:",
           "required": true,
           "location": "belowStimulus",
           "paramCapture": "PROLIFIC_PID"
