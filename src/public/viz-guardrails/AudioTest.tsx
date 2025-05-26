@@ -68,7 +68,7 @@ export function AudioTest({ parameters, setAnswer }: StimulusParams<any>) {
           }
 
           // tuning: fire on any non-zero deviation
-          if (!soundDetected && setAudioDetected && maxDelta > 15) {
+          if (!soundDetected && maxDelta > 15) {
             soundDetected = true;
             setAudioDetected(true);
 
@@ -108,63 +108,30 @@ export function AudioTest({ parameters, setAnswer }: StimulusParams<any>) {
   return (
     <Center style={{ height: '70%', width: '100%' }}>
       <Stack gap="lg">
-        {!audioDetected ? (
-          <>
-            <Text ta="center">
-              Please allow us to access your microphone. There may be a popup in your browser window asking for access - click allow.
-            </Text>
-            <Text ta="center">
-              Once we confirm your microphone is working and we hear you speak, you’ll see a message to begin the task.
-            </Text>
-            <Text ta="center" fw={700}>
-              If you are not comfortable or able to speak English during this study, please return the study.
-            </Text>
-            <Text ta="center" fw={600}>
-              Please say this aloud to test your microphone:
-              <br />
-              “I will talk through my thoughts while solving each puzzle.”
-            </Text>
-          </>
-        ) : (
-          <>
-            <Text ta="center" fw={600} c="green">
-              ✅ Your microphone is working!
-            </Text>
-            <Text ta="center">
-              If you are ready to begin the task, click the button below.
-            </Text>
-            <Center>
-              <button
-                type="button"
-                onClick={() => {
-                  setReadyToProceed(true);
-                  setAnswer({
-                    status: true,
-                    provenanceGraph: undefined,
-                    answers: { audioTest: 'yes' },
-                  });
-                  dispatch(updateResponseBlockValidation({
-                    location: 'belowStimulus',
-                    identifier,
-                    status: true,
-                    provenanceGraph: undefined,
-                    values: { audioTest: 'yes' },
-                  }));
-                }}
-                style={{
-                  padding: '10px 20px',
-                  fontSize: '1rem',
-                  borderRadius: '8px',
-                  backgroundColor: '#0077cc',
-                  color: 'white',
-                  border: 'none',
-                  cursor: 'pointer',
-                }}
-              >
-                Start Task
-              </button>
-            </Center>
-          </>
+        <Text ta="center">
+          Please allow us to access your microphone. There may be a popup in your browser window asking for access — click allow.
+        </Text>
+        <Text ta="center">
+          Once we confirm your microphone is working and we hear you speak, the continue button will become available.
+        </Text>
+        <Text ta="center" fw={700}>
+          If you are not comfortable or able to speak English during this study, please return the study.
+        </Text>
+        <Text ta="center" fw={600}>
+          Please say this aloud to test your microphone:
+          <br />
+          “I will talk through my thoughts while solving each puzzle.”
+        </Text>
+
+        {audioDetected && (
+          <Text ta="center" fw={600} c="green">
+            ✅ Your microphone is working! If you are ready to begin the task, click the
+            {' '}
+            <strong> Start Task </strong>
+            {' '}
+            button below.
+
+          </Text>
         )}
 
         <Center>
