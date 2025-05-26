@@ -68,7 +68,7 @@ export function AudioTest({ parameters, setAnswer }: StimulusParams<any>) {
           }
 
           // tuning: fire on any non-zero deviation
-          if (!soundDetected && maxDelta > 15) {
+          if (!soundDetected && setAudioDetected && maxDelta > 15) {
             soundDetected = true;
             setAudioDetected(true);
 
