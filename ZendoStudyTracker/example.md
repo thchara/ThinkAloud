@@ -4,7 +4,7 @@ Each puzzle shows six visual scenes made of cone-shaped objects.
 
 If a panel displays a **yellow star** in the top corner, that means the arrangement in that panel **follows the hidden rule**.
 
-If the star is missing, that panel **does not follow the rule**.
+If there is **no yellow star** in the top corner, that panel **does not follow the rule**.
 
 ---
 
