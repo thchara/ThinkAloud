@@ -68,7 +68,7 @@ export function AudioTest({ parameters, setAnswer }: StimulusParams<any>) {
           }
 
           // tuning: fire on any non-zero deviation
-          if (!soundDetected && maxDelta > 15) {
+          if (!soundDetected && maxDelta > 25) {
             soundDetected = true;
             setAudioDetected(true);
 
@@ -124,7 +124,7 @@ export function AudioTest({ parameters, setAnswer }: StimulusParams<any>) {
         </Text>
 
         {audioDetected && (
-          <Text ta="center" fw={600} c="green">
+          <Text ta="center" fw={600}>
             ✅ Your microphone is working! If you are ready to begin the task, click the
             {' '}
             <strong> Start Task </strong>
