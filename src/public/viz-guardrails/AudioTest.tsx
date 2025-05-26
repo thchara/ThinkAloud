@@ -68,10 +68,11 @@ export function AudioTest({ parameters, setAnswer }: StimulusParams<any>) {
           }
 
           // tuning: fire on any non-zero deviation
-          if (!soundDetected && maxDelta > 10) {
+          if (!soundDetected && maxDelta > 15) {
             soundDetected = true;
+            setAudioDetected(true);
 
-            // 1) update your hidden-radio (sidebar)
+            // 1) update hidden-radio (sidebar)
             setAnswer({
               status: true,
               provenanceGraph: undefined,
@@ -110,7 +111,7 @@ export function AudioTest({ parameters, setAnswer }: StimulusParams<any>) {
         {!audioDetected ? (
           <>
             <Text ta="center">
-              Please allow us to access your microphone. There may be a popup in your browser window asking for access — click accept.
+              Please allow us to access your microphone. There may be a popup in your browser window asking for access - click allow.
             </Text>
             <Text ta="center">
               Once we confirm your microphone is working and we hear you speak, you’ll see a message to begin the task.
