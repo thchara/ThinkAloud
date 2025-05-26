@@ -5,7 +5,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 /* eslint-disable no-nested-ternary */
 
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Center, Stack, Text } from '@mantine/core';
 import RecordingAudioWaveform from '../../components/interface/RecordingAudioWaveform';
 import { StimulusParams } from '../../store/types';
@@ -20,6 +20,8 @@ export function AudioTest({ parameters, setAnswer }: StimulusParams<any>) {
   const currentComponent = useCurrentComponent();
   const currentStep = useCurrentStep();
   const identifier = `${currentComponent}_${currentStep}`;
+  const [audioDetected, setAudioDetected] = useState(false);
+  const [readyToProceed, setReadyToProceed] = useState(false);
 
   useEffect(() => {
     setAnswer({
@@ -104,16 +106,66 @@ export function AudioTest({ parameters, setAnswer }: StimulusParams<any>) {
 
   return (
     <Center style={{ height: '70%', width: '100%' }}>
-      <Stack>
-        <Text ta="center">
-          Please allow us to access your microphone. There may be a popup in your browser window asking for access, click accept.
-        </Text>
-        <Text ta="center">
-          Once we can confirm that your microphone is on and we hear you say something, the continue button will become available.
-        </Text>
-        <Text ta="center" fw={700}>
-          If you are not comfortable or able to speak English during this study, please return the study.
-        </Text>
+      <Stack gap="lg">
+        {!audioDetected ? (
+          <>
+            <Text ta="center">
+              Please allow us to access your microphone. There may be a popup in your browser window asking for access — click accept.
+            </Text>
+            <Text ta="center">
+              Once we confirm your microphone is working and we hear you speak, you’ll see a message to begin the task.
+            </Text>
+            <Text ta="center" fw={700}>
+              If you are not comfortable or able to speak English during this study, please return the study.
+            </Text>
+            <Text ta="center" fw={600}>
+              Please say this aloud to test your microphone:
+              <br />
+              “I will talk through my thoughts while solving each puzzle.”
+            </Text>
+          </>
+        ) : (
+          <>
+            <Text ta="center" fw={600} c="green">
+              ✅ Your microphone is working!
+            </Text>
+            <Text ta="center">
+              If you are ready to begin the task, click the button below.
+            </Text>
+            <Center>
+              <button
+                type="button"
+                onClick={() => {
+                  setReadyToProceed(true);
+                  setAnswer({
+                    status: true,
+                    provenanceGraph: undefined,
+                    answers: { audioTest: 'yes' },
+                  });
+                  dispatch(updateResponseBlockValidation({
+                    location: 'belowStimulus',
+                    identifier,
+                    status: true,
+                    provenanceGraph: undefined,
+                    values: { audioTest: 'yes' },
+                  }));
+                }}
+                style={{
+                  padding: '10px 20px',
+                  fontSize: '1rem',
+                  borderRadius: '8px',
+                  backgroundColor: '#0077cc',
+                  color: 'white',
+                  border: 'none',
+                  cursor: 'pointer',
+                }}
+              >
+                Start Task
+              </button>
+            </Center>
+          </>
+        )}
+
         <Center>
           <RecordingAudioWaveform height={200} width={400} />
         </Center>
