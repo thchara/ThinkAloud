@@ -1,6 +1,6 @@
 ## Use the Time to Think Freely
 
-For each puzzle, use the 2 minutes to fully explore your ideas.
+For each puzzle, use the 2 minutes to fully explore your ideas. Think of the timer as a thinking period, not a deadline. It is designed to give you room to reason aloud and consider different ideas before committing to a guess.
 
 Even if you come up with an idea early on, we encourage you to **keep reasoning throughout the full time**. You may find other possible rules as you keep reasoning!
 
